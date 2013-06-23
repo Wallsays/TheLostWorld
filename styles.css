@@ -255,5 +255,149 @@ nav ul li.active a {
 }
 
 
+/* --------------------------------------------------------------------
+   Media Queries
+-------------------------------------------------------------------- */
 
+/* > 1300px */
+
+@media screen and (min-width: 1300px) {
+  .logo {
+    margin-left: 0;
+  }
+}
+
+/* < 1000px */
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 3.75em; /* 60px/16px */
+    line-height: 35px;
+  }
+}
+
+/* < 850px */
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 3.125em; /* 50px/16px */
+    line-height: 30px;
+  }
+  h4 {
+    font-size: 1.0625em; /* 17px/16px */
+  }
+  nav {
+    margin-top: 20px;
+  }
+  nav ul li {
+    font-size: 1em; /* 16px */
+  }
+  .banner-caption {
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/* < 720px */
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 4.375em; /* 70px/16px */
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 1.25em; /* 20px/16px */
+  }
+  .logo {
+    float: none;
+    margin-left: 0;
+    width: inherit;
+  }
+  nav {
+    float: none;
+    margin: 10px 0;
+    text-align: center;
+    width: inherit;
+  }
+  nav ul li {
+    font-size: 1.125em; /* 18px/16px */
+  }
+  .banner {
+    height: 250px;
+  }
+  .content {
+    float: none;
+    margin-left: 0;
+    width: inherit;
+  }
+  .sidebar {
+    float: none;
+    padding-top: 10px;
+    width: inherit;
+  }
+}
+
+/* < 500px */
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 2.8125em; /* 45px/16px */
+  }
+  nav ul li {
+    font-size: 1em; /* 16px */
+    margin-right: 5%;
+  }
+}
+
+/* < 380px */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 3.75em; /* 60px/16px */
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 2.8125em; /* 45px/16px */
+  }
+  h3 {
+    font-size: 1.875em; /* 30px/16px */
+  }
+  nav ul li {
+    font-size: .8125em; /* 13px/16px */
+    margin-right: 5%;
+    text-transform: uppercase;
+  }
+}
+
+/* --------------------------------------------------------------------
+   Retina Graphics
+-------------------------------------------------------------------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar ul .sidebar-inner-image .sidebar-inner-jason {
+    background-image: url(images/img-jason@2x.jpeg);
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+  .sidebar ul .sidebar-inner-image .sidebar-inner-nick {
+    background-image: url(images/img-nick@2x.jpeg);
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+  .sidebar ul .sidebar-inner-image .sidebar-inner-tim { 
+    background-image: url(images/img-tim@2x.jpeg);
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+  .sidebar ul .sidebar-inner-image .sidebar-inner-drew {
+    background-image: url(images/img-drew@2x.png);
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+  .sidebar ul .sidebar-inner-image .sidebar-inner-justin {
+    background-image: url(images/img-justin@2x.jpeg);
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px;
+  }
+}
 
